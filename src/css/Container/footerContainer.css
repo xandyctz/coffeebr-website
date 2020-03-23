@@ -1,0 +1,15 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Baloo 2', cursive;
+    font-size: 15pt;
+    color: #888;
+    margin-top: 5%;
+}
+
+.copy {
+    color: #888;
+}
+.copy:hover {
+    color: #333;
+}
