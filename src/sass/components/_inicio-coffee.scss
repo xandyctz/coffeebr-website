@@ -1,0 +1,92 @@
+.inicio-c {
+  background-color: $color-inicio;
+  
+}
+
+#inicio-coffee {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  img {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 400px;
+  }
+  .texto-coffee {
+    font-family: $font-baloo;
+    color: $color-base;
+
+    .titulo-coffee {
+    color: $color-base-dark;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    
+    }
+    .descricao-coffee {
+      line-height: 1.5rem;
+      letter-spacing: .5px;
+      font-size: 1.2rem;
+      .efeito{
+        list-style: none;
+        padding: 10px 0;
+        display: inline-block;
+        line-height: 1em;
+        margin: 0;
+        cursor: pointer;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .efeito::after{
+        content: '';
+        display: inline-block;
+        width: 0;
+        height: 5%;
+        position: absolute;
+        top: 80%;
+        left: 0;
+        background: $color-blue;
+        z-index: -1;
+        transition: width 0.5s ease-in-out;
+      }
+      
+      .efeito:hover::after{
+        width: 100%;
+      }
+
+      a {
+        color: $color-base-dark;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #inicio-coffee {
+    flex-direction: column;
+    margin-top: 20%;
+
+    img{
+      margin-top: 6%;
+      margin-right: 0;
+      width: 250px;
+    }
+    .texto-coffee {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      margin-top: 7%;
+      .descricao-coffee {
+        text-align: center;
+        margin-bottom: 6%;
+
+      }
+    }
+  }
+}

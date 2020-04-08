@@ -1,0 +1,11 @@
+// EXAMPLE base
+// São estilizações BÁSICAS, nada de estilizar tudo aqui!
+@import '../settings/variables';
+body {
+  background-color: $color-white;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}

@@ -1,0 +1,12 @@
+// EXAMPLE components
+// aqui ficarão listas específicas como de produtos, 
+// cards específicos como aqueles incluindo imagens, etc.
+@import '../settings/variables';
+
+.products-list {
+  border-top: 1px solid $color-white;
+
+  > .item {
+    border-bottom: 1px solid $color-white;
+  }
+}
