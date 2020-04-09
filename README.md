@@ -26,5 +26,7 @@
 </h1>
 <h1 align="center">
   Mobile
+</h1>
+<h1 align="center">
   <img alt="Layout mobile" src="./src/img/layout-mobile.png" />
 </h1>
