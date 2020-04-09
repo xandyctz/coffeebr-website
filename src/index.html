@@ -10,18 +10,20 @@
   </head>
   <body ondragstart='return false'>
     <div id="container">
-      <header class="header-content">
-        <h1 class="logo selecao"><i class="fas fa-angle-left">/<span>Coffee Brasil</span><i class="fas fa-angle-right"></i></h1>
-        <nav class="menu">
-          <a class="efeito" href="#"><i class="fas fa-angle-left"></i>/Inicio<i class="fas fa-angle-right"></i></a>
-          <a class="efeito" href="#sobre-coffee"><i class="fas fa-angle-left"></i>/Sobre<i class="fas fa-angle-right"></i></a>
-          <a class="efeito" href="#membros-coffee"><i class="fas fa-angle-left"></i>/Membros<i class="fas fa-angle-right"></i></a>
-          <div>
-          <a href="#"><i class="fab fa-discord hover"></i></a>
-          <a class="block" href="#"><i class="fab fa-github-square hover"></i></a>
+      <div class="sobre-container">
+        <header class="header-content">
+          <h1 class="logo selecao"><i class="fas fa-angle-left">/<span>Coffee Brasil</span><i class="fas fa-angle-right"></i></h1>
+          <nav class="menu">
+            <a class="efeito" href="#"><i class="fas fa-angle-left"></i>/Inicio<i class="fas fa-angle-right"></i></a>
+            <a class="efeito" href="#sobre-coffee"><i class="fas fa-angle-left"></i>/Sobre<i class="fas fa-angle-right"></i></a>
+            <a class="efeito" href="#membros-coffee"><i class="fas fa-angle-left"></i>/Membros<i class="fas fa-angle-right"></i></a>
+            <div>
+            <a href="#"><i class="fab fa-discord hover"></i></a>
+            <a class="block" href="#"><i class="fab fa-github-square hover"></i></a>
+          </div>
+          </nav>
+        </header>
         </div>
-        </nav>
-      </header>
 
       <main id="main-content">
       <div class="inicio-c">
@@ -33,37 +35,39 @@
             </div>
         </section>
       </div>
-
-        <section id="sobre-coffee">
-            <img src="./img/about.jpg" alt="Imagem da Coffee Brasil">
-            <div class="texto-coffee">
-              <h1 class="titulo-coffee">Sobre</h1>
-              <p class="descricao-coffee">A Coffee Brasil foi criada por <a class="efeito" href="#">Gustavo Lins</a>(Back-End Dev) e pelo <a class="efeito" href="#">Xandy Almeida</a>(Front-End Dev) em 21/03/20 com o objetivo de ampliar a comunidade de programação em pernambuco.</p>
-            </div>
-        </section>
-
+        <div class="sobre-container">
+          <section id="sobre-coffee">
+              <img src="./img/about.jpg" alt="Imagem da Coffee Brasil">
+              <div class="texto-coffee">
+                <h1 class="titulo-coffee">Sobre</h1>
+                <p class="descricao-coffee">A Coffee Brasil foi criada por <a class="efeito" href="#">Gustavo Lins</a>(Back-End Dev) e pelo <a class="efeito" href="#">Xandy Almeida</a>(Front-End Dev) em 21/03/20 com o objetivo de ampliar a comunidade de programação em pernambuco.</p>
+              </div>
+          </section>
+        </div>
         <div class="inicio-c">
           <section id="membros-coffee">
             <h1 class="membro-title">Membros</h1>
             <div class="area-membro">
               <div class="membro">
-                <img src="https://avatars1.githubusercontent.com/u/60306241?s=460&u=531a2ba97a3ba3a58aad3e81c6f198e8a9c413d0&v=4" alt="Gustavo">
+                <img src="https://avatars1.githubusercontent.com/u/60306241?s=460&u=531a2ba97a3ba3a58aad3e81c6f198e8a9c413d0&v=4" alt="Gustavo Lins">
                 <div class="membro-info">
-                  <h2 class="efeito">Gustavo</h2>
+                  <h2 class="efeito">Gustavo Lins</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum, ex eget tincidunt rhoncus, ex arcu tincidunt enim, sed blandit magna leo vitae metus.</p>
                 </div>
               </div>
               <div class="membro">
                 <img src="https://avatars2.githubusercontent.com/u/52722388?s=460&u=ce89f87e61e35c4bb21d3324d272825fbd23b167&v=4" alt="Xandy Almeida">
                 <div class="membro-info">
-                  <h2 class="efeito">Gustavo</h2>
+                  <h2 class="efeito">Xandy Almeida</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum, ex eget tincidunt rhoncus, ex arcu tincidunt enim, sed blandit magna leo vitae metus.</p>
                 </div>
               </div>
+
+              
               <div class="membro">
-                <img src="https://avatars2.githubusercontent.com/u/52722388?s=460&u=ce89f87e61e35c4bb21d3324d272825fbd23b167&v=4" alt="Alisson Silva">
+                <img src="https://cdn.discordapp.com/avatars/666314503096631328/84917ee5d7c1070ebb19907cbfa91e26.png?size=128" alt="Alisson Silva">
                 <div class="membro-info">
-                  <h2 class="efeito">Gustavo</h2>
+                  <h2 class="efeito">Alisson Silva</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam interdum, ex eget tincidunt rhoncus, ex arcu tincidunt enim, sed blandit magna leo vitae metus.</p>
                 </div>
               </div>
@@ -72,10 +76,10 @@
       </div>
       </main>
         
-      <footer>
-        <!-- <section>
-          <p>&copy; Coffe Brasil 2020 - </p>
-        </section> -->
+      <footer class="footer-content">
+        <section class="section-footer">
+          <p>&copy; Coffe Brasil 2020</p>
+        </section>
       </footer>
     </div>
   </body>

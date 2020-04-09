@@ -1,6 +1,6 @@
 export class bar {
   constructor() {
-    console.log("Oi amigo!");
+    console.log("Fala tu...");
   }
 }
 
@@ -11,6 +11,6 @@ export const changeTitle = text => {
 
   debugger;
 
-  // Adiciono um texto no H1 just for fun 🙈
+  
 
 };

@@ -2,9 +2,11 @@
 
 .header-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  max-width: 1000px;
   width: 100%;
+  margin: 0 auto;
   height: 4rem;
   h1 {
     font-size: 1.5rem;
@@ -84,15 +86,13 @@
 
 @media only screen and (max-width: 666px) {
   .header-content {
-    margin-top: 22%;
     flex-direction: column;
+    height: 12rem;
+    justify-content: center;
     .menu {
       flex-direction: column;
       
     } 
-  }
-  #main-content {
-    margin-top: 15%;
   }
   
 }

@@ -1,0 +1,16 @@
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 4rem;
+  .section-footer {
+    p{
+      font-family: $font-baloo;
+      font-size: 1rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      color: $color-base-dark;
+
+    }
+  }
+}
