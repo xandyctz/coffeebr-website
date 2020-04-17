@@ -8,6 +8,13 @@
   width: 100%;
   margin: 0 auto;
   height: 4rem;
+  .logo-content {
+    display: flex;
+    align-items: center;
+  }
+  img {
+    width: 4rem;
+  }
   h1 {
     font-size: 1.5rem;
     font-family: $font-baloo;

@@ -4,7 +4,7 @@
   align-items: center;
   max-width: 1000px;
   width: 100%;
-  margin: 6% auto;
+  margin: 5rem auto;
   .texto-coffee {
     font-family: $font-baloo;
     color: $color-base;
@@ -60,6 +60,9 @@
     flex-direction: column;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    .descricao-coffee{
+      margin: 2% 5% 5% 5%
+    }
     img {
       margin-top: -4%;
       width: 250px;
