@@ -8,6 +8,8 @@
   width: 100%;
   margin: 0 auto;
   height: 4rem;
+  
+  
   .logo-content {
     display: flex;
     align-items: center;
@@ -28,7 +30,7 @@
     }
   }
   i {
-    color: $color-base;
+    color: $color-base-dark;
     transition: color 0.5s ease-in-out;
   }
   
@@ -43,10 +45,10 @@
       font-family: $font-baloo;
       font-weight: 600;
       text-transform: uppercase;
-      color: $color-base;
+      color: $color-base-dark;
       margin-left: .5rem;
-      &:first-child {
-        margin-left: 0;
+      i:first-child {
+        margin-left: .5rem;
       }
       i.hover {
         font-size: 1.5rem;
@@ -94,12 +96,14 @@
 @media only screen and (max-width: 666px) {
   .header-content {
     flex-direction: column;
-    height: 12rem;
+    height: 10rem;
     justify-content: center;
     .menu {
       flex-direction: column;
-      
-    } 
+    }
+    img {
+      display: none;
+    }
   }
   
 }
