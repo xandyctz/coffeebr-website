@@ -5,7 +5,7 @@
 ---
 
 <blockquote align="center">
-	Website created to Coffee Labs
+	Website criado para a comunidade Coffee Labs
 </blockquote>
 
 # Instalação
@@ -22,11 +22,5 @@
 
 <h1 align="center">
   Desktop
-  <img alt="Layout desktop" src="./src/img/layout-desktop.png" />
-</h1>
-<h1 align="center">
-  Mobile
-</h1>
-<h1 align="center">
-  <img alt="Layout mobile" src="./src/img/layout-mobile.png" />
+  <img alt="Layout desktop" src="./src/img/layout.png" />
 </h1>
